@@ -1,0 +1,208 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* NAV */
+nav {
+    background: #851704;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* SECCIONES */
+section {
+    padding: 40px;
+}
+
+
+/* INICIO */
+
+
+.inicio-contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* TEXTO */
+.texto {
+    width: 50%;
+}
+
+.texto h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* BOTONES DEL MENÚ */
+.menu-opciones {
+    margin-top: 20px;
+}
+
+.menu-opciones a {
+    display: inline-block;
+    background-color: #851704;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.menu-opciones a:hover {
+    background-color: #a61c0b;
+    transform: scale(1.05);
+}
+
+/* IMAGEN */
+.imagen {
+    width: 100%;
+    text-align: center;
+}
+
+.imagen img {
+    width: 800px; 
+}
+
+
+/* CONTENEDOR*/
+.catalogo {
+    display: flex;
+    gap: 30px; /* Espacio entre las dos tarjetas */
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las tarjetas en la pantalla */
+    padding: 40px 20px;
+}
+
+/* PRODUCTOS */
+.catalogo {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center; /* centra las tarjetas */
+}
+
+/* TARJETA */
+.producto {
+    border: 1px solid #d1d1d1;
+    padding: 0;
+    text-decoration: none;
+    color: #111;
+    width: 350px; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+/* IMAGEN */
+.producto img {
+    display:  flex;
+    width: 100%;
+    height: 220px; 
+    object-fit: cover;
+
+}
+
+/* CONTENIDO */
+.info-producto {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-producto h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.info-producto p {
+    margin: 0;
+    color: #555;
+    line-height: 1.5;
+}
+/* FORMULARIO */
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+}
+
+
+/* MAPA */
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+
+/* BOTÓN VOLVER */
+
+
+.btn-volver {
+    display: inline-block;
+    background-color: #851704;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-volver:hover {
+    background-color: #a61c0b;
+    transform: scale(1.05);
+}
+
+#quienes {
+    text-align: center; /* centra todo */
+}
+
+#quienes h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#quienes p {
+    font-size: 18px;
+    max-width: 800px; /* que no quede muy ancho */
+    margin: 0 auto; /* centra el bloque */
+    line-height: 1.6;
+}
+
+.producto { 
+    overflow: hidden; /* Esto hace que la imagen respete las esquinas redondeadas */
+    display: flex;
+    flex-direction: column;
+}
